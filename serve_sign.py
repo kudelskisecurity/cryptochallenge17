@@ -16,6 +16,7 @@ class Handler(ss.StreamRequestHandler):
         put('Signature service, please send a message\n')
         msg = self.rfile.readline()[:-1]
         msghash = hashlib.sha256(msg).hexdigest()
+        print('signing %s from %s' % (msg, self.client_address))
 
         process = Popen(['./sign', msghash], stdout=PIPE, stderr=PIPE)
         stdout, stderr = process.communicate()

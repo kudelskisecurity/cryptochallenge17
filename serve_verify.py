@@ -17,6 +17,7 @@ class Handler(ss.StreamRequestHandler):
         put('Signature verification service, please send a message first\n')
         msg = self.rfile.readline()[:-1]
         msghash = hashlib.sha256(msg).hexdigest()
+        print('verifying sig for %s from %s' % (msg, self.client_address))
 
         put('Now please send a signature, in hex\n')
         sig = self.rfile.readline()[:-1]
