@@ -1,5 +1,11 @@
 #!/usr/bin/env python
 
+"""
+
+Copyright (c) Nagravision 2017, all rights reserved
+
+"""
+
 import SocketServer as ss
 import struct
 import os
