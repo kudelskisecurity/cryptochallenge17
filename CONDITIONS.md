@@ -2,7 +2,7 @@
 
 All participants are subject to the following rules:
  
-*The following prizes will be offered at the Kudelski Security Party at Las Vegas on the 24th July 2017: 5 ETH, 3 ETH, and 2 ETH corresponding to first, second and third prize, respectively;   
+* The following prizes will be offered at the Kudelski Security Party at Las Vegas on the 24th July 2017: 5 ETH, 3 ETH, and 2 ETH corresponding to first, second and third prize, respectively;   
 
 * Employees of Kudelski and its affiliated companies are not eligible to participate, nor are family members or close relatives;
 
