@@ -5,7 +5,7 @@ calls the binary [sign](sign) in order to sign a message.
 
 [serve_verify.py](serve_verify.py) is another service running on host
 213.244.194.155. It verifies the signature of a message using the
-[verify](veirfy) binary.
+[verify](verify) binary.
 
 To solve the challenge, you must write a program that creates valid
 signatures, which will be successfully verified by the verification
